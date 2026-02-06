@@ -1,0 +1,45 @@
+/*
+Theme Name: Luna Balance
+Author: Alicia
+Description: Calm and modern wellness theme
+Version: 1.0
+*/
+:root {
+    --wp--preset--color--sage: #a8b5a1;
+    --wp--preset--color--base: #f5f5f5;
+    --wp--preset--color--contrast: #2c2c2c;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #2c2c2c;
+}
+
+.wp-block-button__link {
+    transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.event-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+}
+
+.event-carousel-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.event-carousel-dots span.active {
+    background-color: #C7B8A9;
+}
