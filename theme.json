@@ -11,11 +11,6 @@
           "name": "Base White"
         },
         {
-          "slug": "soft-sand",
-          "color": "#C7B8A9",
-          "name": "Soft Sand"
-        },
-        {
           "slug": "warm-clay",
           "color": "#C7B8A9",
           "name": "Warm Clay"
@@ -24,11 +19,6 @@
           "slug": "sage",
           "color": "#92A090",
           "name": "Sage Green"
-        },
-        {
-          "slug": "mist-blue",
-          "color": "#AFC1C6",
-          "name": "Mist Blue"
         },
         {
           "slug": "charcoal",

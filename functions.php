@@ -98,7 +98,7 @@ function luna_register_all_patterns() {
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2.5rem"},"margin":{"bottom":"2.5rem"}}}} -->
 <div class="wp-block-columns" style="margin-bottom:2.5rem"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Morning Flow"/></figure>
 <!-- /wp:image -->
 
@@ -114,7 +114,7 @@ function luna_register_all_patterns() {
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Deep Meditative Focus"/></figure>
 <!-- /wp:image -->
 
@@ -130,7 +130,7 @@ function luna_register_all_patterns() {
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Kundalini Yoga"/></figure>
 <!-- /wp:image -->
 
@@ -148,7 +148,7 @@ function luna_register_all_patterns() {
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2.5rem"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Beginner Yoga Class"/></figure>
 <!-- /wp:image -->
 
@@ -164,7 +164,7 @@ function luna_register_all_patterns() {
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Classic Reiki Cleanse"/></figure>
 <!-- /wp:image -->
 
@@ -180,7 +180,7 @@ function luna_register_all_patterns() {
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"1.5rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:1.5rem"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Advanced Asana"/></figure>
 <!-- /wp:image -->
 
@@ -196,8 +196,8 @@ function luna_register_all_patterns() {
 <!-- /wp:columns -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"3.5rem"}}}} -->
-<div class="wp-block-buttons" style="margin-top:3.5rem"><!-- wp:button {"backgroundColor":"soft-sand","textColor":"charcoal","style":{"border":{"radius":"25px"},"typography":{"fontSize":"0.9rem","letterSpacing":"0.05em"},"spacing":{"padding":{"left":"2.5rem","right":"2.5rem","top":"0.7rem","bottom":"0.7rem"}}}} -->
-<div class="wp-block-button has-custom-font-size" style="font-size:0.9rem;letter-spacing:0.05em"><a class="wp-block-button__link has-charcoal-color has-soft-sand-background-color has-text-color has-background wp-element-button" style="border-radius:25px;padding-top:0.7rem;padding-right:2.5rem;padding-bottom:0.7rem;padding-left:2.5rem">MORE CLASSES →</a></div>
+<div class="wp-block-buttons" style="margin-top:3.5rem"><!-- wp:button {"backgroundColor":"off-white","textColor":"charcoal","style":{"border":{"radius":"25px"},"typography":{"fontSize":"0.9rem","letterSpacing":"0.05em"},"spacing":{"padding":{"left":"2.5rem","right":"2.5rem","top":"0.7rem","bottom":"0.7rem"}}}} -->
+<div class="wp-block-button has-custom-font-size" style="font-size:0.9rem;letter-spacing:0.05em"><a class="wp-block-button__link has-charcoal-color has-off-white-background-color has-text-color has-background wp-element-button" style="border-radius:25px;padding-top:0.7rem;padding-right:2.5rem;padding-bottom:0.7rem;padding-left:2.5rem">MORE CLASSES →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -225,7 +225,7 @@ register_block_pattern(
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="" alt="Harmonic Reiki event"/></figure>
 <!-- /wp:image -->
 
@@ -238,7 +238,7 @@ register_block_pattern(
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
-<p class="has-text-align-center" style="margin-top:1.5rem">● ○ ○</p>
+<p class="has-text-align-center has-warm-clay-color has-text-color" style="margin-top:1.5rem;font-size:1.5rem">● ○ ○</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"2.5rem"}}}} -->
@@ -270,25 +270,25 @@ register_block_pattern(
 <div class="wp-block-group has-base-background-color has-background" style="padding-top:3rem;padding-bottom:2rem"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"6rem"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"0.75rem","fontWeight":"400","letterSpacing":"0.1em"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"charcoal"} -->
-<h4 class="wp-block-heading has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">INSTAGRAM</h4>
+<h4 class="wp-block-heading has-text-align-center has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">INSTAGRAM</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"0.75rem","fontWeight":"400","letterSpacing":"0.1em"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"charcoal"} -->
-<h4 class="wp-block-heading has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">FACEBOOK</h4>
+<h4 class="wp-block-heading has-text-align-center has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">FACEBOOK</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"0.75rem","fontWeight":"400","letterSpacing":"0.1em"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"charcoal"} -->
-<h4 class="wp-block-heading has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">LINKEDIN</h4>
+<h4 class="wp-block-heading has-text-align-center has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">LINKEDIN</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"0.75rem","fontWeight":"400","letterSpacing":"0.1em"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"charcoal"} -->
-<h4 class="wp-block-heading has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">YOUTUBE</h4>
+<h4 class="wp-block-heading has-text-align-center has-charcoal-color has-text-color" style="margin-bottom:0.5rem;font-size:0.75rem;font-weight:400;letter-spacing:0.1em">YOUTUBE</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -320,6 +320,7 @@ register_block_pattern(
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"align":"right","style":{"typography":{"fontSize":"0.7rem"}},"textColor":"charcoal"} -->
+<!-- wp:paragraph {"align":"right"} -->
 <p class="has-text-align-right has-charcoal-color has-text-color" style="font-size:0.7rem">© 2025 Luna Balance</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
@@ -330,4 +331,6 @@ register_block_pattern(
     );
 
 }
+add_filter('jpeg_quality', function() { return 100; });
+add_filter('wp_editor_set_quality', function() { return 100; });
 add_action('init', 'luna_register_all_patterns');
