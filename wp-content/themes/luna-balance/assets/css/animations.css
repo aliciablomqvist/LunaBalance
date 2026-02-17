@@ -325,6 +325,13 @@ html {
     transform: translateY(-2px);
 }
 
+@media (max-width: 768px) {
+    .modal-book-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
 .luna-main-nav {
     position: relative;
 }
