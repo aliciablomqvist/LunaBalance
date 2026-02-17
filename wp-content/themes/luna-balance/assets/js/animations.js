@@ -308,6 +308,45 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.classList.remove('active');
     });
 
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    const nav = document.querySelector('.luna-main-nav');
+    if (!nav) return;
+    
+    const openBtn = nav.querySelector('.wp-block-navigation__responsive-container-open, button[aria-label*="Open"]');
+    const closeBtn = nav.querySelector('.wp-block-navigation__responsive-close, button[aria-label*="Close"]');
+    const container = nav.querySelector('.wp-block-navigation__responsive-container');
+    
+    const overlay = document.createElement('div');
+    overlay.classList.add('luna-mobile-menu-overlay');
+    document.body.appendChild(overlay);
+    
+    function openMenu() {
+        container.classList.add('is-menu-open');
+        overlay.classList.add('active');
+        document.body.classList.add('menu-open');
+    }
+    
+    function closeMenu() {
+        container.classList.remove('is-menu-open');
+        overlay.classList.remove('active');
+        document.body.classList.remove('menu-open');
+    }
+    
+    if (openBtn) openBtn.addEventListener('click', openMenu);
+    if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+    
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeMenu();
+    });
+    
+    const menuLinks = nav.querySelectorAll('.wp-block-navigation-item a');
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', closeMenu);
+    });
+});
+
 function setupClassCards() {
     const allClassCards = document.querySelectorAll(
         '#classes .wp-block-columns > .wp-block-column, ' +
