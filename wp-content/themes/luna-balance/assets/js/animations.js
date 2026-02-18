@@ -224,13 +224,8 @@ document.addEventListener("DOMContentLoaded", function () {
               const nextIndex = (currentEventIndex + 1) % events.length;
               changeEvent(nextIndex);
             }, 5000);
-          }
-        }
-      }
-    }
-  }, 1500);
 
-  const eventBookBtn = centerColumn.querySelector(".wp-block-button__link");
+              const eventBookBtn = centerColumn.querySelector(".wp-block-button__link");
   if (eventBookBtn) {
     eventBookBtn.style.cursor = "pointer";
     eventBookBtn.setAttribute("data-event-id", events[0].id);
@@ -241,6 +236,13 @@ document.addEventListener("DOMContentLoaded", function () {
       showBookingForm(currentEvent.title, "event");
     });
   }
+          }
+        }
+      }
+    }
+  }, 1500);
+
+
 
   const classDetails = {
     "Morning Flow": {
@@ -363,17 +365,16 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.classList.remove("active");
   });
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const nav = document.querySelector(".luna-main-nav");
-    if (!nav) return;
+const lunaNav = document.querySelector(".luna-main-nav");
+  if (lunaNav) {
 
-    const openBtn = nav.querySelector(
+    const openBtn = lunaNav.querySelector(
       '.wp-block-navigation__responsive-container-open, button[aria-label*="Open"]',
     );
-    const closeBtn = nav.querySelector(
+    const closeBtn = lunaNav.querySelector(
       '.wp-block-navigation__responsive-close, button[aria-label*="Close"]',
     );
-    const container = nav.querySelector(
+    const container = lunaNav.querySelector(
       ".wp-block-navigation__responsive-container",
     );
 
@@ -401,11 +402,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (e.key === "Escape") closeMenu();
     });
 
-    const menuLinks = nav.querySelectorAll(".wp-block-navigation-item a");
+    const menuLinks = lunaNav.querySelectorAll(".wp-block-navigation-item a");
     menuLinks.forEach(function (link) {
       link.addEventListener("click", closeMenu);
     });
-  });
+  }
 
   function setupClassCards() {
     const allClassCards = document.querySelectorAll(
@@ -671,5 +672,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     }, 1000);
-  })();
+  })();   // ← RÄTT (stänger IIFE)
 });
