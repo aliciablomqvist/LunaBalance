@@ -672,5 +672,5 @@ const lunaNav = document.querySelector(".luna-main-nav");
         }
       });
     }, 1000);
-  })();   // ← RÄTT (stänger IIFE)
+  })(); 
 });
