@@ -71,20 +71,17 @@
 
 @media (max-width: 768px) {
 
-    /* Logo - förhindra radbrytning */
     .wp-container-core-group-is-layout-fc9f69e7 {
         flex-wrap: nowrap !important;
         align-items: center !important;
         gap: 0.5rem !important;
     }
 
-    /* Logo bild */
     .wp-block-image.size-thumbnail img {
         width: 30px !important;
         height: 30px !important;
     }
 
-    /* Logo text */
     .wp-container-core-group-is-layout-fc9f69e7 h1 {
         white-space: nowrap !important;
         font-size: 0.8rem !important;
@@ -92,7 +89,6 @@
         margin-left: 0.3rem !important;
     }
 
-    /* Hero text */
     .hero-title,
     .wp-block-cover h1 {
         font-size: 2.5rem !important;
@@ -108,7 +104,6 @@
     text-align: center;
 }
 
-    /* Header padding */
     .wp-container-core-group-is-layout-0fd939a0 {
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
